@@ -2,6 +2,9 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
-  - CI=tru
+- CI=tru
+deploy:
+  api_key:
+    secure: ENC1ojrUmCzrvKPXSy+ZIbNlKMaV2mBHiy12sQeI40ctkFx6sV0TPRkYbjzSYW/cto5dS3HCbHHgJTazwsHMhGCw/fDKZkKA8O5DzOgYXgn4Ai4KXywn0BEz/bhYOZbU8KBK38S32DNRWVXl6bEKoitfMILryxBe54aohtCw2dglwzG2FM8L+rAC9rtIgf1CxU+CgWQAhGHdldZJjZXvFaTbR0fjRxkLjIBlpX31NMDAWEZKT46ooA2Y8ysDI2CU9zTZJppmerdl3Ar1b45osnBMIz7MoVzrXCjWq+dfeSggASmvRCNYkTfLsGIRf096jnnhLmAJKGFBWITliv74YRKBn5uHTZHT0bDNpyqrCprc6MeLkVZn/sL+/pXfkQyjdrth+Zymbnhc+mcX+Pyc3ePFYpsc/DRwiNoNCAIe1wcgofPxADAiYvmeesFq4YeEJIyLajJ77iB5UOgPRa+sTHdaHKy540Pc4AFfhBylZVCuwy/6Nqddi+EKE0L5QTWVueF2kTU2DYZ+h/YoMuXaJqPeDg1y2rYjoeVQMNpHW0tXxqjgnaroKsTyoSCEspQuK2qZKXUBIM+INi/+sZMsAaODCQ5rUXOy9LJTGtEAsTqIhGYO7J1uZGETSwgL1S9BsoWMWyawAnTEAMrfs9lGoqYAYugbFkhjZJsYuGI4m1Q=
